@@ -22,12 +22,12 @@ It relies on a custom highly optimized **Rust** engine for fast Block Truncation
 Run the one-liner command below corresponding to your operating system to automatically clone, compile, and place files in their correct folders.
 
 ### Linux / macOS
-curl -sSfL https://raw.githubusercontent.com/georg/yazi-quadrants/main/install.sh | bash
+curl -sSfL https://raw.githubusercontent.com/GotchanBata/yazi-quadrants/main/install.sh | bash
 
 Windows (PowerShell)
 code Powershell
 
-irm https://raw.githubusercontent.com/georg/yazi-quadrants/main/install.ps1 | iex
+irm https://raw.githubusercontent.com/GotchanBata/yazi-quadrants/main/install.ps1 | iex
 
 Configuration
 

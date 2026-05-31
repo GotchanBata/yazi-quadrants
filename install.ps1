@@ -15,7 +15,7 @@ $TmpDir = [System.IO.Path]::GetTempFileName()
 Remove-Item $TmpDir
 New-Item -ItemType Directory -Path $TmpDir | Out-Null
 
-git clone https://github.com/georg/yazi-quadrants.git $TmpDir
+git clone https://github.com/GotchanBata/yazi-quadrants.git $TmpDir
 Push-Location $TmpDir
 cargo build --release
 Pop-Location

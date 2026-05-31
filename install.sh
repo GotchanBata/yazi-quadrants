@@ -13,7 +13,7 @@ fi
 
 echo -e "\033[1;34m[2/4] Компиляция yazi-quadrants...\033[0m"
 TMP_DIR=$(mktemp -d)
-git clone https://github.com/georg/yazi-quadrants.git "$TMP_DIR"
+git clone https://github.com/GotchanBata/yazi-quadrants.git "$TMP_DIR"
 cd "$TMP_DIR"
 cargo build --release
 
