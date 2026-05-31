@@ -34,10 +34,12 @@ Configuration
 Add the following lines to your Yazi configuration file (~/.config/yazi/yazi.toml or %APPDATA%\yazi\config\yazi.toml):
 code Toml
 
+```toml
 [plugin]
 prepend_previewers = [
     { mime = "video/*", run = "video-quadrants" }
 ]
+```
 
 How It Works Under the Hood
 
